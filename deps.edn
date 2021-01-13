@@ -1,0 +1,22 @@
+{
+ :paths ["resources" "src"]
+
+ :deps {
+        org.clojure/tools.logging             {:mvn/version "1.1.0" :exclusions [org.clojure/clojure]}
+        manifold                              {:mvn/version "0.1.9-alpha3"}
+        byte-streams                          {:mvn/version "0.2.5-alpha2"}
+        potemkin                              {:mvn/version "0.4.5"}
+        io.netty/netty-transport              {:mvn/version "4.1.51.Final"}
+        io.netty/netty-transport-native-epoll {:mvn/version "4.1.51.Final"}
+        io.netty/netty-codec                  {:mvn/version "4.1.51.Final"}
+        io.netty/netty-codec-http             {:mvn/version "4.1.51.Final"}
+        io.netty/netty-handler                {:mvn/version "4.1.51.Final"}
+        io.netty/netty-handler-proxy          {:mvn/version "4.1.51.Final"}
+        io.netty/netty-resolver               {:mvn/version "4.1.51.Final"}
+        io.netty/netty-resolver-dns           {:mvn/version "4.1.51.Final"}
+        }
+
+ :aliases {
+
+ }
+}
